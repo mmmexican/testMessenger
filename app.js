@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const express = require('express')
 const config = require('config')
 const mongoose = require('mongoose')
@@ -50,7 +50,7 @@ app.get('/mmmexican', function (req, res){
 app.get('/chat', function (req, res){
     res.sendFile(__dirname + '/src/list/chat.html');
 })
-=======
+
 const express = require('express')
 const config = require('config')
 const mongoose = require('mongoose')
@@ -69,4 +69,4 @@ async function start(){
 }
 
 app.listen(PORT, () => console.log('App has been started on port ${PORT}'));
->>>>>>> 23ac869ef7ccc291ad1a1a2176ba7dd7fa1df70c
+
