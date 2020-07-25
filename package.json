@@ -4,12 +4,8 @@
   "description": "steck mern ",
   "main": "app.js",
   "scripts": {
-<<<<<<< HEAD
     "start": "node app.js",
     "dev": "nodemon app.js"
-=======
-    "start": "node app.js"
->>>>>>> 23ac869ef7ccc291ad1a1a2176ba7dd7fa1df70c
   },
   "keywords": [
     "mern"
@@ -20,11 +16,8 @@
     "config": "^3.3.1",
     "express": "^4.17.1",
     "mongoose": "^5.9.25"
-<<<<<<< HEAD
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-=======
->>>>>>> 23ac869ef7ccc291ad1a1a2176ba7dd7fa1df70c
   }
 }
