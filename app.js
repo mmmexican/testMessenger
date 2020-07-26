@@ -5,19 +5,13 @@ const fs = require('fs')
 
 const app = express()
 
-const PORT = config.get('port') || 5000
+const PORT = config.get('port') || 5000;
+var http = require('http').Server(app);
 
 
-// async function start(){
-//     try{
-//         mongoose.connect()
-//     }catch(e){
-//         console.log('')
-//     }
-// }
-
-
-app.listen(PORT, () => console.log('App has been started on port ${PORT}'));
+http.listen(PORT, function(){
+    console.log('HTTP server started on port ', PORT);
+});
 
 //Маршрутизация по страницам
 
