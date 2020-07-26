@@ -15,12 +15,8 @@
   "dependencies": {
     "config": "^3.3.1",
     "express": "^4.17.1",
-<<<<<<< HEAD
     "mongoose": "^5.9.25",
     "redux": "^4.0.5"
-=======
-    "mongoose": "^5.9.25"
->>>>>>> 2c0672b66fc373f825d8a6901e7bffa3b5666ce9
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
