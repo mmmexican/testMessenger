@@ -1,47 +1,3 @@
-.table {
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.row {
-    display: table-row
-}
-
-.thead {
-    display: table-header-group
-}
-
-.tbody {
-    display: table-row-group
-}
-
-.tfoot {
-    display: table-footer-group
-}
-
-.col {
-    display: table-column
-}
-
-.colgroup {
-    display: table-column-group
-}
-
-.cell {
-    display: table-cell
-}
-
-.cell-text {
-    width: 210px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.caption {
-    display: table-caption
-}
-
 .cell-line {
    width: 1px;
 }
@@ -65,12 +21,8 @@
     width: 90%;
 }
 
-.menu-cell{
-}
-
 .app-content{
     width: 70%;
-    padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 40px;
     padding-right: 40px;
